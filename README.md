@@ -1,6 +1,6 @@
-# ionic-cli
+# ionic
 
-[ionic-cli](http://ionicframework.com/docs/cli/)用Dockerイメージ
+[ionic](http://ionicframework.com/docs/cli/)用Dockerイメージ
 
 ## `Dockerfile` links
 
@@ -11,7 +11,7 @@
 ### 起動コマンド書式
 
 ```bash
-docker run -it --rm -p 8100:8100 -v $PWD:/workdir yamamoto-febc/ionic-cli [オプション]
+docker run -it --rm -p 8100:8100 -v $PWD:/workdir yamamoto-febc/ionic [オプション]
 ```
 
 ## whalebrewでインストールする場合
@@ -21,12 +21,11 @@ docker run -it --rm -p 8100:8100 -v $PWD:/workdir yamamoto-febc/ionic-cli [オ�
 ### インストール
 
 ```bash
-$ whalebrew install yamamoto-febc/ionic-cli
+$ whalebrew install yamamoto-febc/ionic
 ```
 
 ### 使い方
 
 ```bash
-# バインドマウント可能なディレクトリ上で実行
-$ ionic-cli [オプション]
+$ ionic [オプション]
 ```
