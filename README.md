@@ -11,7 +11,7 @@
 ### 起動コマンド書式
 
 ```bash
-docker run -it --rm -p 8100:8100 -v $PWD:/workdir yamamoto-febc/ionic [オプション]
+docker run -it --rm -p 8100:8100 -v $PWD:/workdir yamamotofebc/ionic [オプション]
 ```
 
 ## whalebrewでインストールする場合
@@ -21,7 +21,7 @@ docker run -it --rm -p 8100:8100 -v $PWD:/workdir yamamoto-febc/ionic [オプシ
 ### インストール
 
 ```bash
-$ whalebrew install yamamoto-febc/ionic
+$ whalebrew install yamamotofebc/ionic
 ```
 
 ### 使い方
